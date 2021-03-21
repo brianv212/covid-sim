@@ -98,7 +98,6 @@ function App() {
       <div style={{width: `${(critters.length === 0 ? 100 : (b/critters.length) * 100)}%`, height: "100%", backgroundColor: "#2edce8"}}>{b}</div>
       <div style={{width: `${(critters.length === 0 ? 0 : (r/critters.length) * 100)}%`, height: "100%", backgroundColor: "#db1d00"}}>{r}</div>
       </div>
-
     </div>
   );
 }
